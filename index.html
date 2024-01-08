@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calendar Date</title>
+        
+        <link rel="stylesheet" href="./calendar-date.css" />
+        <script src="./calendar-date.js" defer></script>
+    </head>
+    <style>
+        * {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+    </style>
+    <template id="calendar-styles">
+        <style>
+            .date-container {
+                border: 1px solid red;
+                display: inline-block;
+                max-width: 100%;
+                min-width: 75px;
+                text-align: center;
+                border-radius: 5px;
+            }
+            .date-month {
+                padding: 5px;
+                color: white;
+                background-color: red;
+            }
+            .date-day {
+                font-size: 2rem;
+                font-weight: bold;
+                padding: 5px;
+            }
+        </style>
+    </template>
+    <calendar-date month="March" day="31"></calendar-date>
+</html>
