@@ -10,14 +10,14 @@ To use the component on your website, first copy the `calendar-date.js` and `cal
 
 Add references to these files in the `<head>` tag of the page on which you want to use the component:
 
-```
+```html
 <link rel="stylesheet" src="calendar-date.css" />
 <script src="calendar-date.js" defer></script>
 ```
 
 Then, add the `<calendar-date>` component to your website:
 
-```
+```html
 <calendar-date month="March" day="31"></calendar-date>
 ```
 
