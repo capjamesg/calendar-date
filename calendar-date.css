@@ -1,0 +1,18 @@
+.date-container {
+    border: 1px solid red;
+    display: inline-block;
+    max-width: 100%;
+    min-width: 75px;
+    text-align: center;
+    border-radius: 5px;
+}
+.date-month {
+    padding: 5px;
+    color: white;
+    background-color: red;
+}
+.date-day {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 5px;
+}
